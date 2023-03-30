@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script async src="index.js"></script>
+  <title>Курс валют</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <a href="/" class="header__name">Конвертер валют</a>
+      <nav class="header__menu header-menu">
+        <div class="header-menu__item">
+          <a href="/" class="header-menu__link">Автор</a>
+        </div>
+        <div class="header-menu__item">
+          <a href="" class="header-menu__link">Другие проекты</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="conversion">
+      <div class="conversion__container container">
+        <h1 class="conversion__header">Конвертация валюты</h1>
+        <div class="conversion__body">
+          <div class="conversion__left">
+            <p class="conversion-left__text">Моя денежная единица</p>
+            <div class="conversion-left__switcher">
+              <div class="conversion-left__item">
+                <span>₽</span>
+              </div>
+              <div class="conversion-left__item">
+                <span>$</span>
+              </div>
+              <div class="conversion-left__item">
+                <span>€</span>
+              </div>
+              <div class="conversion-left__item">
+                <span>₸</span>
+              </div>
+            </div>
+            <div class="conversion-left__input-box">
+              <input maxlength="7" value="1000" class="conversion-left__input">
+            </div>
+          </div>
+          <div class="conversion__right"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
